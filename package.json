@@ -1,8 +1,8 @@
 {
   "name": "reto-40-semanas",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.1.0",
+  "description": "App para el tracking del reto de las 40 semanas entre David Camargo y Osvaldo Galvez",
   "keywords": [],
   "dependencies": {
     "sails": "~0.10.5",
@@ -32,6 +32,9 @@
     "type": "git",
     "url": "git://github.com/anonymous node/sails user/reto-40-semanas.git"
   },
-  "author": "anonymous node/sails user",
-  "license": ""
+  "author": "Hyphenated",
+  "license": "GNU v2",
+  "devDependencies": {
+    "grunt-sass": "^0.18.1"
+  }
 }
