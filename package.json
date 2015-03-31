@@ -30,11 +30,12 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/reto-40-semanas.git"
+    "url": "https://github.com/hyphenated/reto40Semanas.git"
   },
   "author": "Hyphenated",
   "license": "GNU v2",
   "devDependencies": {
-    "grunt-sass": "^0.18.1"
+    "grunt-sass": "^0.18.1",
+    "sails-mongo": "^0.10.6"
   }
 }

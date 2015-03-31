@@ -7,8 +7,34 @@
 
 module.exports = {
 
-  attributes: {
-
-  }
+    attributes: {
+        id: {
+            type: 'integer',
+            autoIncrement: true,
+            unique: true,
+            primaryKey: true,
+        },
+        fistName: {
+            type: 'string',
+            required: true,
+        },
+        lastName: {
+            type: 'string',
+            required: true,
+        },
+        email: {
+            type: 'email',
+            unique: true,
+            required: true,
+        },
+        dob: {
+            type: 'datetime',
+            required: true,
+        },
+        bets: {
+            collection: 'bet',
+            via: 'userID'
+        }
+    }
 };
 

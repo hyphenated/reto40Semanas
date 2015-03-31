@@ -16,15 +16,65 @@
 
 
 
-// For example:
-//
-// @import 'variables/colors.less';
-// @import 'mixins/foo.less';
-// @import 'mixins/bar.less';
-// @import 'mixins/baz.less';
-//
-// @import 'styleguide.less';
-// @import 'pages/login.less';
-// @import 'pages/signup.less';
-//
-// etc.
+// -------------------------------------------------------
+// Main stylesheet: just to serve as a hb for all the structure, 
+// no styles need to be here, NOTHING AT ALL!
+// 
+// Naming convention:                                                           
+// Variables, functions, mixins names goes all in lowercase and spaced with 
+// dash, only use cammel case if there is something result or scripting from 
+// javascript.
+// 
+// Style order:                                                                 
+// The order of rules for each style block will be alphabetic ascending, can be 
+// done easily with F9 in Sublime Text.
+// 
+// We should not have more than 6 levels nested selectors just to avoid madness 
+// with code mantaining
+// 
+// Folder structure:
+// VENDOR/ is for CSS related to some JavaScript libraries, or some dependencies that does
+// not have or need bower to be installed
+// MODULES/ is for mixins, variables and utilities (such as icons or sprites).
+// PATTERNS/ is for global styles, buttons, inputs, and small groups of styles.
+// COMPONENTS/ is for groups of patterns with small bits of layout.
+// LAYOUTS/ is where page layouts go and any page-specific changes to patterns
+// and components. Just small group of styles to complete patterns and components definition.
+// -------------------------------------------------------
+
+
+// 
+// Modules stylesheets: mixins, variables and utilities 
+// -------------------------------------------------------
+@import "normalize";
+@import "foundation/functions";
+@import "animate";
+// @import "modules/variables";
+// @import "modules/texts";
+
+// 
+// Vendor stylesheets: all vendor stylesheets
+// -------------------------------------------------------
+@import "foundation/components/global";
+@import "foundation/components/grid";
+@import "foundation/components/visibility";
+@import "foundation/components/type";
+
+
+// 
+// Patterns stylesheets: group of styles and components
+// -------------------------------------------------------
+// @import "patterns/dropdowns";
+
+
+// 
+// Components stylesheets: is for groups of patterns with small bits of layout
+// -------------------------------------------------------
+// @import "components/forms";
+
+
+
+// 
+// Layouts stylesheets: group of patterns in a view
+// -------------------------------------------------------
+// @import "layouts/form-section";

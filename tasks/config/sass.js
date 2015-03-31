@@ -20,7 +20,14 @@ module.exports = function(grunt) {
                 src: ['main.scss'],
                 dest: '.tmp/public/styles/',
                 ext: '.css'
-            }]
+            }],
+        },
+        options: {
+            includePaths: [
+                'bower_components/animate-sass/',
+                'bower_components/foundation/scss/',
+            ],
+            outputStyle: 'compressed'
         }
     });
 

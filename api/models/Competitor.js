@@ -7,8 +7,24 @@
 
 module.exports = {
 
-  attributes: {
+    attributes: {
+        id: {
+            type: 'integer',
+            autoIncrement: true,
+            unique: true,
+            primaryKey: true,
+        },
+        fistName: {
+            type: 'string',
+        },
+        lastName: {
+            type: 'string',
+        },
+        entries: {
+            collection: 'weeklyEntries',
+            via: 'competitorID'
+        }
 
-  }
+    }
 };
 
