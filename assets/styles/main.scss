@@ -49,7 +49,7 @@
 @import "normalize";
 @import "foundation/functions";
 @import "animate";
-// @import "modules/variables";
+@import "modules/variables";
 // @import "modules/texts";
 
 // 
@@ -59,11 +59,13 @@
 @import "foundation/components/grid";
 @import "foundation/components/visibility";
 @import "foundation/components/type";
+// @import "foundation/components/forms";
 
 
 // 
 // Patterns stylesheets: group of styles and components
 // -------------------------------------------------------
+@import "patterns/globals";
 // @import "patterns/dropdowns";
 
 

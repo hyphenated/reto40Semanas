@@ -26,8 +26,11 @@ module.exports = function(grunt) {
 			files: ['assets/**/*', 'tasks/pipeline.js'],
 
 			// When assets are changed:
-			tasks: ['syncAssets' , 'linkAssets']
-		}
+			tasks: ['compileAssets' ,'syncAssets' , 'linkAssets']
+		},
+		options: {
+            livereload: true
+        },
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
