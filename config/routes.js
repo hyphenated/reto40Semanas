@@ -38,7 +38,7 @@ module.exports.routes = {
   '/admin': {
     view: 'admin',
     layout: 'cms'
-  }
+  },
   '/admin/login': {
     view: 'login'
   },
