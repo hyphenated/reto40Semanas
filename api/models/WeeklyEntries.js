@@ -19,7 +19,12 @@ module.exports = {
         competitorID: {
             model: 'competitor',
             required: true,
+        },
+        weekID: {
+            model: 'weeks',
+            required: true
         }
+        
     }
 };
 

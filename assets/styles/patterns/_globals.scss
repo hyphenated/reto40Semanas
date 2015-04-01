@@ -1,3 +1,11 @@
+body {
+    background: transparent url(../images/pw_maze_white.png) left top;
+
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+        background: transparent url(../images/pw_maze_white_2X.png) left top;
+    }
+}
+
 .wrapper {
-	@include grid-row();
+    @include grid-row();
 }

@@ -50,7 +50,7 @@
 @import "foundation/functions";
 @import "animate";
 @import "modules/variables";
-// @import "modules/texts";
+@import "modules/texts";
 
 // 
 // Vendor stylesheets: all vendor stylesheets
@@ -59,24 +59,27 @@
 @import "foundation/components/grid";
 @import "foundation/components/visibility";
 @import "foundation/components/type";
-// @import "foundation/components/forms";
+@import "foundation/components/forms";
 
 
 // 
 // Patterns stylesheets: group of styles and components
 // -------------------------------------------------------
 @import "patterns/globals";
-// @import "patterns/dropdowns";
+@import "patterns/buttons";
+@import "patterns/boxes";
+
 
 
 // 
 // Components stylesheets: is for groups of patterns with small bits of layout
 // -------------------------------------------------------
-// @import "components/forms";
+@import "components/forms";
 
 
 
 // 
 // Layouts stylesheets: group of patterns in a view
 // -------------------------------------------------------
+@import "layouts/login";
 // @import "layouts/form-section";

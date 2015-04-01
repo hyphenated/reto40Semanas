@@ -2,5 +2,8 @@
   "Welcome": "Bienvenido",
   "A brand new app.": "Una aplicación de la nueva marca.",
   "app name": "Reto 40 Semanas",
-  "login": "Iniciar Sesion"
+  "login": "Iniciar Sesion",
+  "user": "Usuario",
+  "password": "Contraseña",
+  "login error": "Usuario o contraseña incorrecta"
 }

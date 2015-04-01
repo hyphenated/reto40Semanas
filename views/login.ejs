@@ -1,10 +1,17 @@
-<div class="default-page">
-    <h1><%= __('app name') %></h1>
-    <div class="login-box">
-        <form action="">
-            <input type="text" name="username" id="username">
-            <input type="password" name="password" id="password">
-            <button type="submit" value="Submit"><%= __('login') %></button>
-        </form>
+<div class="wrapper">
+    <h1 class="big"><%= __('app name') %></h1>
+    <div class="login-box box">
+        <div class="inner-box">
+            <small class="error"><%= __('login error') %></small>
+            <form action="">
+                <div class="field">
+                    <input type="text" name="username" id="username" placeholder="<%= __('user') %>">
+                </div>
+                <div class="field">
+                    <input type="password" name="password" id="password" placeholder="<%= __('password') %>">
+                </div>
+                <button type="submit" value="Submit"><%= __('login') %></button>
+            </form>
+        </div>
     </div>
 </div>
