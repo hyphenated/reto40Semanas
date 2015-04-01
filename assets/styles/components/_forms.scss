@@ -6,16 +6,15 @@ input[type="email"], {
 }
 
 .field {
-    .error {
-        display: none;
-        height: 0;
-        transition: height .5s ease;
-    }
+    width: 100%;
+}
 
-    &.show-error {
-        .error {
-            display: block;
-            height: auto;
-        }
+small.error {
+    display: none;
+    height: 0;
+    transition: height .5s ease;
+
+    .show-error & {
+        display: block;
     }
 }
