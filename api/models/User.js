@@ -34,6 +34,11 @@ module.exports = {
         bets: {
             collection: 'bet',
             via: 'userID'
+        },
+        type:{
+            type:'string',
+            enum:['competitor','bettor','admin', 'admin-bets'],
+            required: true
         }
     }
 };
