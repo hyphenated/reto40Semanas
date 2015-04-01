@@ -36,12 +36,12 @@ module.exports.routes = {
     view: 'homepage'
   },
   '/admin': {
+    view: 'admin',
+    layout: 'cms'
+  }
+  '/admin/login': {
     view: 'login'
-  }
-
-  '/register': {
-    view: 'register'
-  }
+  },
 
   /***************************************************************************
   *                                                                          *
