@@ -42,6 +42,18 @@ $white: #FFF;
 
 }
 
+@font-face {
+    font-family: 'reto40-glyph';
+    src:url('../fonts/reto40-glyph.eot?p27bf1');
+    src:url('../fonts/reto40-glyph.eot?#iefixp27bf1') format('embedded-opentype'),
+        url('../fonts/reto40-glyph.woff?p27bf1') format('woff'),
+        url('../fonts/reto40-glyph.ttf?p27bf1') format('truetype'),
+        url('../fonts/reto40-glyph.svg?p27bf1#reto40-glyph') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$glyph: 'reto40-glyph';
 $roboto-regular: 'robotoregular';
 $roboto-bold: 'robotobold';
 $league-spartan: 'League Spartan';

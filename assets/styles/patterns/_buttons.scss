@@ -16,4 +16,9 @@ button {
     &:hover {
         color: $white-smoke;
     }
+
+    span[class^="icon-"],
+    span[class*=" icon-"] {
+        margin: rem-calc(0 5);
+    }
 }

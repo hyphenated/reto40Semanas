@@ -9,3 +9,7 @@ body {
 .wrapper {
     @include grid-row();
 }
+
+.wrapper-full {
+    @include grid-row($behavior: nest-collapse);
+}
