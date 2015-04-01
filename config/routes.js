@@ -39,6 +39,10 @@ module.exports.routes = {
     view: 'login'
   }
 
+  '/register': {
+    view: 'register'
+  }
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

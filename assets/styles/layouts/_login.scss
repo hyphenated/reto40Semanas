@@ -1,0 +1,25 @@
+h1 {
+    @extend .text-center;
+}
+
+.login-box {
+    @include grid-column(12);
+    @extend .text-center;
+
+    @media #{$medium-up} {
+        @include grid-column(5, $center: true);
+    }
+
+    @media #{$large-up} {
+        @include grid-column(6, $center: true);
+    }
+
+    .inner-box {
+        @include grid-column(12, $float: false);
+        background: $white;
+    }
+}
+
+button {
+    margin: 0 auto;
+}

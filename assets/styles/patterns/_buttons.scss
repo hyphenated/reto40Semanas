@@ -1,0 +1,19 @@
+button {
+    border-radius: rem-calc(5);
+    box-shadow: inset rem-calc(0 -5) rgba(0,0,0,0.3), rem-calc(1 1 1) $gainsboro;
+    font-family: $roboto-bold;
+    outline: none;
+    text-shadow: rem-calc(1 1 2) $oil;
+    text-transform: uppercase;
+    transition: box-shadow .7s ease, color .7s ease, background .5s ease;
+    user-select: none;
+
+    &:active {
+        color: $white-smoke;
+        box-shadow: none;
+    }
+
+    &:hover {
+        color: $white-smoke;
+    }
+}

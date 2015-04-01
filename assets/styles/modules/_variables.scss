@@ -1,5 +1,7 @@
 // Colors Values
 // ************************************************************
+$black: #000;
+$white: #FFF;
 
 // Fonts Values
 // ************************************************************
@@ -47,12 +49,16 @@ $league-spartan: 'League Spartan';
 
 // Foundation Overrrides
 // *******************************************************
+
 $primary-color: #3386EE;
 $secondary-color: #F5EFED;
 $alert-color: #F04124;
 $success-color: #14AD51;
 $warning-color: #f08a24;
 $info-color: #a0d3e8;
+$jet: #222222;
+
+$row-width: rem-calc(1024);
 
 $base-font-size: 16px;
 $header-font-family: $league-spartan;
