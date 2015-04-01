@@ -1,0 +1,21 @@
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"], {
+    border-radius: rem-calc(3);
+}
+
+.field {
+    .error {
+        display: none;
+        height: 0;
+        transition: height .5s ease;
+    }
+
+    &.show-error {
+        .error {
+            display: block;
+            height: auto;
+        }
+    }
+}
