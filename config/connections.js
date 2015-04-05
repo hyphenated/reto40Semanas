@@ -56,13 +56,13 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  /*mongoLabServer: {
+  mongoLabServer: {
     adapter: 'sails-mongo',
     url: process.env.MONGOLAB.URI
     // user: 'username',
     // password: 'password',
     // database: 'your_mongo_db_name_here'
-  },*/
+  },
 
   /***************************************************************************
   *                                                                          *
@@ -81,14 +81,14 @@ module.exports.connections = {
     database: 'YOUR_POSTGRES_DB'
   },
 
- localPostgresqlServer: {
-    adapter: 'sails-postgresql',
-    host: 'localhost',
-    user: 'postgres',
-    password: 'os1520',
-    database: 'reto40semanas',
-    port:5433
-  }
+  // localPostgresqlServer: {
+  //   adapter: 'sails-postgresql',
+  //   host: 'localhost',
+  //   user: 'postgres',
+  //   password: 'os1520',
+  //   database: 'reto40semanas',
+  //   port:5433
+  // }
 
   /***************************************************************************
   *                                                                          *
