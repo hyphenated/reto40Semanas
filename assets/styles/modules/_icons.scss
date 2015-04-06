@@ -6,6 +6,7 @@ span[class^="icon-"], span[class*=" icon-"] {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
+    margin-right: rem-calc(10);
 
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
@@ -142,6 +143,10 @@ span[class^="icon-"], span[class*=" icon-"] {
 
 .icon-emoji-sad:before {
     content: "\e625";
+}
+
+.icon-folder:before {
+    content: "\e60e";
 }
 
 .icon-funnel:before {

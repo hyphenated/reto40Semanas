@@ -5,5 +5,11 @@
   "login": "Iniciar Sesion",
   "user": "Usuario",
   "password": "Contraseña",
-  "login error": "Usuario o contraseña incorrecta"
+  "login error": "Usuario o contraseña incorrecta",
+  "users": "Usuarios",
+  "competitors": "Competidores",
+  "bets": "Apuestas",
+  "rounds": "Rondas",
+  "weeks": "Semanas",
+  "dashboard": "Dashboard"
 }
