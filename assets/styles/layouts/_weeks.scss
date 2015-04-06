@@ -1,0 +1,15 @@
+.container-weeks{
+	padding:rem-calc(50);	
+	table{
+		width:100%;
+
+		thead{
+			th{
+				@extend .text-center;
+				background-color: $primary-color;
+				color:$white;
+				border:rem-calc(2) solid $secondary-color;
+			}
+		}
+	}
+}

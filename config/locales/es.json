@@ -5,5 +5,6 @@
   "login": "Iniciar Sesion",
   "user": "Usuario",
   "password": "Contraseña",
-  "login error": "Usuario o contraseña incorrecta"
+  "login error": "Usuario o contraseña incorrecta",
+  "add weeks": "Agregar semana"
 }

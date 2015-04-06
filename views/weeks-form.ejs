@@ -1,0 +1,33 @@
+<div class="wrapper">
+	<div class="container-weeks">
+    	<h1 class="big"><%= __('app name') %></h1>
+		<div class="login-box box">
+        <div class="inner-box">
+            <small class="error"><%= __('login error') %></small>
+            <form action="">
+                <div class="row">
+				    <div class="large-12 columns">
+				      <label class="error">Week
+				        <input type="number" class="error" min="1" />
+				      </label>
+				      <small class="error">Invalid entry</small>
+				    </div>
+				    <div class="large-12 columns">
+				      <label>Start Week
+				        <input type="date" name="start-date" id="start-date"/>
+				      </label>
+				      <small class="error">Invalid entry</small>
+				    </div>
+				    <div class="large-12 columns">
+				      <label>End Week
+				        <input type="date" name="end-date" id="end-date"/>
+				      </label>
+				      <small class="error">Invalid entry</small>
+				    </div>
+				  </div>
+				  <button type="submit" value="Submit"><span class="icon-login"></span><%= __('add weeks') %></button>
+            </form>
+        </div>
+    </div>
+	</div>
+</div>
