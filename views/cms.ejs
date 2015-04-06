@@ -40,18 +40,19 @@
                 <%= __('app name') %>
             </div>
             <div class="notifications">
-                <div class="name"></div>
                 <div class="buttons">
-                    <div class="icon-sound-mix"></div>
-                    <div class="icon-log-out"></div>
+                    <span class="icon-menu"></span>
+                    <span class="icon-sound-mix"></span>
+                    <span class="icon-log-out"></span>
+                </div>
+                <div class="name">
+                    <%= __('hello') %> <span class="user">USERNAME</span>!
                 </div>
             </div>
         </div>
   		<aside class="sidebar-menu">
             <ul id="menu">
-                <a href="">
-                    <li class="element"><span class="icon-home"></span><%= __('dashboard') %></li>
-                </a>
+                <li class="element active"><span class="icon-home"></span><%= __('dashboard') %></li>
                 <a href="">
                     <li class="element"><span class="icon-user"></span><%= __('users') %></li>
                 </a>
@@ -65,11 +66,11 @@
                     <li class="element"><span class="icon-calendar"></span><%= __('weeks') %></li>
                 </a>
                 <a href="">
-                    <li class="element"><span class="icon-sound-mix"></span><%= __('rounds') %></li>
+                    <li class="element"><span class="icon-folder"></span><%= __('rounds') %></li>
                 </a>
             </ul>
         </aside>
-        <div class="dashboard">
+        <div class="content">
             <%- body %>
         </div>
   	</div>

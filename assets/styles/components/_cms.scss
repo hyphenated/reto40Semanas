@@ -24,9 +24,46 @@
 
     .notifications {
         @include grid-column(12);
+        color: $white;
+        line-height: rem-calc(50);
+
         @media #{$medium-up} {
             @include grid-column(6);
+            float: right;
         }
+
+        .name {
+            float: right;
+
+            .user {
+                font-family: $roboto-bold;
+            }
+        }
+
+        .buttons {
+            float: right;
+            margin-top: rem-calc(12);
+            margin-left: rem-calc(15);
+
+            span {
+                cursor: pointer;
+                float: left;
+                font-size: rem-calc(26);
+
+                html.no-touch &:hover {
+                    color: $ui-gold;
+                }
+            }
+
+            .icon-menu {
+                display: inline-block;
+
+                @media #{$medium-up} {
+                    display: none;
+                }
+            }
+        }
+
     }
 }
 
@@ -46,7 +83,8 @@
             padding: rem-calc(10 7 10 10);
             transition: .4s all ease;
 
-            html.no-touch &:hover {
+            html.no-touch &:hover,
+            .active {
                 background: $white;
                 color: $ui-gold;
             }
