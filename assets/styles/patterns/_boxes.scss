@@ -1,6 +1,15 @@
 .inner-box {
+    background: $white;
     padding-top: $column-gutter/2;
     border: rem-calc(1) solid $gainsboro;
     border-radius: rem-calc(5);
     width: 100%;
+
+    .blue & {
+        background: $primary-color;
+    }
+
+    .gold & {
+        background: $ui-gold;
+    }
 }

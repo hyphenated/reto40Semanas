@@ -35,8 +35,44 @@
 
   <body>
   	<div class="wrapper-full">
-  		<%- body %>
-  		<p>test</p>
+        <div class="topbar">
+            <div class="title">
+                <%= __('app name') %>
+            </div>
+            <div class="notifications">
+                <div class="buttons">
+                    <span class="icon-menu"></span>
+                    <span class="icon-sound-mix"></span>
+                    <span class="icon-log-out"></span>
+                </div>
+                <div class="name">
+                    <%= __('hello') %> <span class="user">USERNAME</span>!
+                </div>
+            </div>
+        </div>
+  		<aside class="sidebar-menu">
+            <ul id="menu">
+                <li class="element active"><span class="icon-home"></span><%= __('dashboard') %></li>
+                <a href="">
+                    <li class="element"><span class="icon-user"></span><%= __('users') %></li>
+                </a>
+                <a href="">
+                    <li class="element"><span class="icon-users"></span><%= __('competitors') %></li>
+                </a>
+                <a href="">
+                    <li class="element"><span class="icon-credit"></span><%= __('bets') %></li>
+                </a>
+                <a href="">
+                    <li class="element"><span class="icon-calendar"></span><%= __('weeks') %></li>
+                </a>
+                <a href="">
+                    <li class="element"><span class="icon-folder"></span><%= __('rounds') %></li>
+                </a>
+            </ul>
+        </aside>
+        <div class="content">
+            <%- body %>
+        </div>
   	</div>
 
 

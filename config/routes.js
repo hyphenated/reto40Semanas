@@ -47,7 +47,7 @@ module.exports.routes = {
   '/admin/login': {
     view: 'login',
     locals: {
-      layout: 'cms'
+      layout: 'layout'
     }
   },
   '/admin/weeks': {

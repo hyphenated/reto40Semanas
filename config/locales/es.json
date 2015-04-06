@@ -3,8 +3,16 @@
   "A brand new app.": "Una aplicación de la nueva marca.",
   "app name": "Reto 40 Semanas",
   "login": "Iniciar Sesion",
+  "hello": "Hola",
   "user": "Usuario",
   "password": "Contraseña",
   "login error": "Usuario o contraseña incorrecta",
   "add weeks": "Agregar semana"
+  "users": "Usuarios",
+  "competitors": "Competidores",
+  "bets": "Apuestas",
+  "rounds": "Rondas",
+  "weeks": "Semanas",
+  "dashboard": "Dashboard"
+
 }
