@@ -7,10 +7,12 @@
   "user": "Usuario",
   "password": "Contraseña",
   "login error": "Usuario o contraseña incorrecta",
+  "add weeks": "Agregar semana"
   "users": "Usuarios",
   "competitors": "Competidores",
   "bets": "Apuestas",
   "rounds": "Rondas",
   "weeks": "Semanas",
   "dashboard": "Dashboard"
+
 }

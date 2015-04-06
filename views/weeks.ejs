@@ -1,0 +1,25 @@
+<div class="wrapper">
+	<div class="container-weeks">
+    	<h1 class="big"><%= __('app name') %></h1>
+		<table>
+		  <thead>
+		    <tr>
+		      <th>Week #</th>
+		      <th>Week Start</th>
+		      <th>Week End</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+			<% if(weeks.length){%>
+				<% _.each(weeks, function (week) { %>
+			    <tr>
+			    	<td><%= week.name %></td><td></td><td></td>
+			    </tr>
+			    <% }) %>
+		    <% }else{%>
+		    	<tr><td>No Weeks Added!</td></tr>
+		    <% } %>
+		  </tbody>
+		 </table>
+	</div>
+</div>

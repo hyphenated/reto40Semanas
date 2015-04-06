@@ -6,7 +6,7 @@
 */
 
 module.exports = {
-
+    identity:'weeks',
     attributes: {
         week_id: {
             type: 'integer',
