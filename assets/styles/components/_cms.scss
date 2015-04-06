@@ -84,7 +84,7 @@
             transition: .4s all ease;
 
             html.no-touch &:hover,
-            .active {
+            &.active {
                 background: $white;
                 color: $ui-gold;
             }
