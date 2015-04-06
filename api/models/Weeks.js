@@ -14,6 +14,10 @@ module.exports = {
             primaryKey: true,
             autoIncrement: true
         },
+        week_name: {
+            type:'string',
+            required:true
+        },
         week_start: {
             type:'date',
             required:true
@@ -30,6 +34,6 @@ module.exports = {
             model: 'rounds',
             required: true
         }
-    }
+    },
 };
 
