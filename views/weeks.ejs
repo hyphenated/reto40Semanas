@@ -4,9 +4,10 @@
 		<table>
 		  <thead>
 		    <tr>
-		      <th>Week #</th>
-		      <th>Week Start</th>
-		      <th>Week End</th>
+		      <th><%= __('round') %> #</th>
+		      <th><%= __('week') %> #</th>
+		      <th><%= __('start week') %></th>
+		      <th><%= __('end week') %></th>
 		    </tr>
 		  </thead>
 		  <tbody>
@@ -17,7 +18,7 @@
 			    </tr>
 			    <% }) %>
 		    <% }else{%>
-		    	<tr><td>No Weeks Added!</td></tr>
+		    	<tr><td><%= __('not found week') %></td></tr>
 		    <% } %>
 		  </tbody>
 		 </table>

@@ -50,14 +50,21 @@ module.exports.routes = {
       layout: 'layout'
     }
   },
-  '/admin/weeks': {
+  '/admin/week': {
     controller: 'week',
     action: 'index',
     locals: {
       layout: 'cms'
     }
   },
-  '/admin/weeks/add': {
+   '/admin/week/save': {
+    controller: 'week',
+    action: 'save',
+    locals: {
+      layout: 'cms'
+    }
+  },
+  '/admin/week/add': {
     view: 'weeks-form',
     locals: {
       layout: 'cms'

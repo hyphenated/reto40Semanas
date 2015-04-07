@@ -1,4 +1,4 @@
-/*$.fn.extend({
+$.fn.extend({
 	
 });
 
@@ -14,4 +14,4 @@ $(document).ready(function(){
 	    if (end.value)
 	        start.max = end.value;
 	}, false);
-});*/
+});
