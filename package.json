@@ -21,7 +21,10 @@
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-less": "0.11.1",
-    "grunt-contrib-coffee": "~0.10.1"
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-bower": "^0.18.0",
+    "grunt-sass": "^0.18.1",
+    "sails-mongo": "^0.10.6"
   },
   "scripts": {
     "start": "node app.js",
@@ -35,9 +38,6 @@
   "author": "Hyphenated",
   "license": "GNU v2",
   "devDependencies": {
-    "grunt-bower": "^0.18.0",
-    "grunt-contrib-requirejs": "^0.4.4",
-    "grunt-sass": "^0.18.1",
-    "sails-mongo": "^0.10.6"
+    
   }
 }
