@@ -1,7 +1,7 @@
 {
   "name": "reto-40-semanas",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "App para el tracking del reto de las 40 semanas entre David Camargo y Osvaldo Galvez",
   "keywords": [],
   "dependencies": {
